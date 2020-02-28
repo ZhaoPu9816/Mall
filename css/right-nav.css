@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.right-nav a {
+	font-family: "仿宋";
+	font-size: x-large;
+	color: #ff2d52;
+}
+
+.right-nav {
+	z-index: 30;
+	position: fixed;
+	right: 0px;
+	width: 40px;
+	top: 0px;
+	bottom: 0px;
+	background-color: rgba(83,83,83,0.8);
+	/*border: 1px solid #838383;*/
+}
+
+.right-nav i {
+	cursor: pointer;
+}
+
+/*个人中心*/
+
+.grzx {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 30%;
+	padding: 1px 1px;
+}
+
+.grzx-t {
+	z-index: 11;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	text-align: center;
+	right: 40px;
+	bottom: 0px;
+	background-color: rgba(255,255,255,0.6);
+	border: 1px solid #ff2d52;
+	display: none;
+	font-size: x-large;
+	font-family: "楷体";
+	color: #ff2d52;
+}
+
+.grzx:hover .grzx-t {
+	display: block;
+}
+
+.grzx:hover .grzx-t a {
+	color: #ff2d52;
+}
+
+/*购物车*/
+
+.gwc {
+	width: 40px;
+	height: 200px;
+	position: absolute;
+	top: 40%;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.gwc-label {
+	width: 22px;
+	height: 22px;
+	background-color: #ff2d52;
+	border: 1px solid #ff2d52;
+	border-radius: 50%;
+	margin: 10px auto;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	font-family: "楷体";
+}
+
+.gwc:hover .gwc-label {
+	color: #ff2d52;
+	background: white;
+}
+
+.shoppingCart {
+	width: 300px;
+	/*height: 892px;*/
+	border: 1px solid #FF2D52;
+	background-color: rgba(255,255,255,0.6);
+	position: absolute;
+	right: 40px;
+	top: 0;
+	bottom: 0;
+	display: none;
+}
+
+.shoppingCart-title {
+	line-height: 60px;
+	text-align: left;
+	font-size: 30px;
+	background-color: rgba(250,250,250,0.9);
+}
+
+.shoppingCart-title a,
+.total span {	
+	margin-left: 25px;
+	color: #FF2D52;
+	font-family: "楷体";
+}
+
+.allwares {
+	
+}
+
+.wares {
+	padding: 15px;
+	width: 100%;
+	display: inline-block;
+}
+
+.shoppingCart img {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.wares-text {
+	float: left;
+	line-height: 40px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.wares-text p{
+	font-family: "楷体";
+	font-size: large;
+	color: black;
+}
+
+.wares-text span {
+	font-family: "楷体";
+	font-size: large;
+	color: #FF2D52;
+}
+
+.total {
+	width: 298px;
+	line-height: 60px;
+	text-align: left;
+	font-size: 30px;
+	border-top: 1px solid #ccc;
+	background-color: rgba(250,250,250,0.9);
+	position: absolute;
+    bottom: 0;
+}
+
+/*客服*/
+
+.kf {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 73%;
+	padding: 1px 1px;
+}
+
+.kf-t {
+	width: 250px;
+	height: 200px;
+	line-height: 40px;
+	position: absolute;
+	text-align: center;
+	right: 40px;
+	top: 0px;
+	background-color: rgba(255,255,255,0.6);
+	border: 1px solid #ff2d52;
+	display: none;
+	font-size: x-large;
+	font-family: "楷体";
+	color: #FF2D52;
+}
+
+.kf:hover .kf-t {
+	display: block;
+}
+
+
+/*二维码*/
+
+.ewm {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 83%;
+	padding: 1px 1px;
+}
+
+.ewm-t {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	text-align: center;
+	right: 40px;
+	top: 0px;
+	display: none;
+}
+
+.ewm:hover .ewm-t {
+	display: block;
+}
+
+.ewm img {
+	width: 99px;
+	height: 99px;
+}
+
+/*箭头*/
+
+.dbjt {
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.icon-gerenzhongxin,
+.icon-gouwuche,
+.icon-kefu,
+.icon-erweima {
+	font-size: 35px;
+}
+
+.grzx:hover a,
+.gwc:hover a,
+.kf:hover a,
+.ewm:hover a {
+	color: white;
+}
+
+.gwc:hover .shoppingCart-title a {
+	color: #ff2d52;
+}
+
+.grzx:hover,
+.gwc:hover,
+.kf:hover,
+.ewm:hover {
+	background-color: #ff2d52;
+}
+
+

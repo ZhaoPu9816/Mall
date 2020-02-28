@@ -1,0 +1,602 @@
+.member {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid #CCCCCC;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*左部分*/
+.member-l {
+	width: 200px;
+	overflow: auto;
+	border-right: 1px solid #ccc;
+	vertical-align: -4px;
+}
+
+.title {
+	height: 70px;
+	padding: 15px;
+	background-color: rgb(255,249,245);
+}
+
+.title-tb {
+	vertical-align: middle;
+}
+
+.member-l span {
+	font-size: 24px;
+	line-height: 40px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.member-l-menu {
+	padding: 15px;
+}
+
+.member-menu {
+	padding-left: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.member-menu:last-child {
+	border-bottom: none;
+}
+
+.member-menu>li {
+	list-style: square;
+	cursor: pointer;
+}
+
+.member-menu-child {
+	line-height: 36px;
+}
+
+.member-menu-child li:hover {
+	color: #FF2D52;
+}
+
+/*右部分*/
+.member-r {
+	width: 798px;
+	padding: 20px;
+	/*border-left: 1px solid #ccc;*/
+}
+/*上*/
+.member-r-head {
+	height: 120px;
+	border: 1px solid #CCCCCC;
+	background-color: rgb(255,249,245);
+	padding: 20px;
+}
+
+.tx,
+.tx img {
+	width: 80px;
+	height: 80px;
+}
+
+.tx {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.ye img {
+	width: 15px;
+	height: 15px;
+}
+
+.ye {
+	margin-left: 20px;
+	line-height: 26px;
+	font-size: 16px;
+}
+
+.ye img {
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.ye span {
+	font-size: 16px;
+}
+
+.ye button {
+	width: 50px;
+	height: 26px;
+	border: 0;
+	border-radius: 5px;
+	margin-left: 8px;
+	background-color: #FF2D52;
+	color: white;
+}
+
+.spriteMain li {
+	width: 84px;
+	height: 70px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	font-family: "楷体";
+	border: 1px solid rgb(255,249,245);
+}
+
+.spriteMain li:hover {
+	border: 1px solid #FF2D52;
+}
+
+.spriteMain a {
+	font-size: 16px;
+}
+
+.sprite {
+	margin: 3px auto;
+	width: 44px;
+	height: 42px;
+	/*border: 1px solid #ccc;*/
+	background: url(../img/sprite.png);
+}
+
+#sprite1 {
+	background-position: 0 -193px;
+}
+
+#sprite2 {
+	background-position: -78px -196px;
+}
+
+#sprite3 {
+	background-position: -159px -196px;
+}
+
+#sprite4 {
+	background-position: -237px -199px;
+}
+
+/*下*/
+.member-r-body {
+	height: 655px;
+}
+
+.member-box-title {
+	line-height: 50px;
+	background-color: rgb(255,249,245);
+	padding-left: 20px;
+}
+
+.member-box-title a {
+	margin-right: 20px;
+	color: #FF2D52;
+	
+}
+
+.member-box {
+	margin-top: 20px;
+	width: 360px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 37px;
+}
+
+.member-box:nth-child(1),
+.member-box:nth-child(3) {
+	margin-left: 0px;
+}
+
+.member-box-content {
+	padding: 20px 10px 20px;
+}
+
+/*按钮切换图片*/
+.img-scroll {
+	position: relative;
+	width: 340px;
+}
+
+.img-scroll .prev,
+.img-scroll .next {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 80px;
+	background-color: white;
+	top: 0;
+	color: #ccc;
+	text-align: center;
+	line-height: 80px;
+	font-size: x-large;
+}
+
+.img-scroll .prev:hover,
+.img-scroll .next:hover {
+	color: #FF2D52;
+}
+
+.img-scroll .prev {
+	left: 0;
+	cursor: pointer;
+}
+
+.img-scroll .next {
+	right: 0;
+	cursor: pointer;
+}
+
+.img-list {
+	position: relative;
+	width: 260px;
+	height: 80px;
+	margin-left: 40px;
+	overflow: hidden
+}
+
+.img-list img {
+	width: 80px;
+	height: 80px;
+}
+
+.img-list ul {
+	width: 800px;
+}
+
+.img-list li {
+	float: left;
+	display: inline;
+	width: 80px;
+	margin-right: 10px;
+	height: 80px;
+	background-color: #BDBDDF;
+	text-align: center;
+	line-height: 80px;
+}
+/*默认*/
+.member-default {
+	/*display: none;*/
+}
+
+/*实名认证*/
+.member-Rname {
+	display: none;
+}
+
+.myRname {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.myRname h3 {
+	height: 41px;
+	border-bottom: 3px solid #FF2D52;
+}
+
+.Rname-rule {
+	padding: 15px;
+	border: 1px solid #ccc;
+	background-color: rgb(255,249,245);
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+/*未认证*/
+.Rname {
+	/*display: none;*/
+}
+
+.Rname li {
+	margin-top: 20px;
+}
+
+.Rname span {
+	display: inline-block;
+	width: 100px;
+	float: left;
+	line-height: 40px;
+}
+
+.Rname input {
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+}
+
+.Rname p {
+	margin-left: 100px;
+	color: rgb(102,102,102);
+}
+
+.front,
+.back {
+	height: 130px;
+	width: 200px;
+	border: 1px solid #ccc;
+	background-color: rgb(255,249,245);
+	text-align: center;
+	line-height: 130px;
+}
+
+.back {
+	margin-left: 20px;
+}
+
+.toRname {
+	width: 100px;
+	height: 36px;
+	background-color: #FF2D52;
+	color: white;
+	border: 0;
+	margin-left: 100px;
+}
+
+/*已认证*/
+.certified {
+	display: none;
+}
+
+.certified li {
+	margin-top: 20px;
+	height: 40px;
+}
+
+.certified span {
+	display: inline-block;
+	width: 100px;
+	float: left;
+	line-height: 40px;
+}
+
+.certified img {
+	height: 130px;
+	width: 200px;
+}
+
+.cback {
+	margin-left: 20px;
+}
+
+/*我的优惠券*/
+.myCoupon {
+	display: none;
+}
+
+.myCoupon-content {
+	border: 1px solid #ccc;
+}
+
+.myCoupon-title {
+	background-color: rgb(255,249,245);
+	height: 36px;
+	text-align: center;
+}
+
+.myCoupon-title li {
+	float: left;
+	width: 90px;
+	line-height: 36px;
+}
+
+.myCoupon-title li:hover {
+	background-color: white;
+	color: #FF2D52;
+}
+
+/*优惠券*/
+.coupon-content {
+	height: 180px;
+	padding-top: 2px;
+	border-top: none;
+}
+
+.coupon-content ul {
+	width: 998px;
+	margin-top: 1px;
+}
+
+.coupon-content li {
+	height: 160px;
+	width: 25%;
+	padding-top: 25px;
+    padding-left: 25px;
+	float: left;
+}
+/*上*/
+.coupon-s {
+	width: 200px;
+	height: 75px;
+	background-color: papayawhip;
+	position: relative;
+}
+.s-l {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 0 100% 0 0;
+	/*定位*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.s-r {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 100% 0 0 0;
+	/*定位*/
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.coupon-s-l {
+	width: 30px;
+    height: 26px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.coupon-s-r {
+	width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+/*分割线*/
+.xx {
+	width: 170px;
+	margin: auto;
+	border-top: 1px dashed #ccc;
+}
+/*下*/
+.coupon-x {
+	width: 200px;
+	height: 50px;
+	background-color: papayawhip;
+	position: relative;
+}
+.x-l {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 0 0 100% 0;
+	/*定位*/
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.x-r {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 0 0 0 100%;
+	/*定位*/
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.exchange {
+	width: 100px;
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.exchange-btn {
+	width: 100px;
+    height: 26px;
+    background-color: #FF2D52;
+    border-radius: 20px;
+	color: white;
+	border: 0;
+}
+
+/*已使用和已过期*/
+.gray226 {
+	background-color: rgb(226,226,226);
+}
+
+.gray170 {
+	background-color: rgb(170,170,170);
+}
+
+/*我的积分*/
+.myIntegral {
+	display: none;
+}
+
+.myIntegral-rule {
+	border: 1px solid #ccc;
+	background-color: rgb(255,249,245);
+	padding: 20px;
+	font-size: small;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.myIntegral-rule a {
+	text-align: center;
+	width: 60px;
+	height: 24px;
+	background-color: #FF2D52;
+	color: white;
+}
+
+.myIntegral-list {
+	font-size: small;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.myIntegral-list>li {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.myIntegral-list>li:nth-child(1) {
+	background-color: rgb(255,249,245);
+}
+
+.myIntegral-list>li:nth-child(1),
+.myIntegral-list>li:last-child {
+	border-bottom: 0;
+}
+
+.myIntegral-list>li>ul>li {
+	float: left;
+	width: 252px;
+}
+
+/*翻页*/
+.fy {
+	width: 758px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.page-box .page {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.page-box .button {
+	width: 40px;
+	height: 40px;
+	background: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: small;
+}
+
+.page-box .page:first-child .button,
+.page-box .page:last-child .button {
+	width: 80px;
+}
+
+.page-box .button:hover {
+	background: #FF2D52;
+	color: white;
+	border-color: #FF2D52;
+}
+
+.page-box .button.disabled {
+	background: #F6F6F6;
+	color: #CCCCCC;
+	border-color: #CCCCCC;
+	cursor: not-allowed;
+}
+
+.page-box .button.current {
+	background: #FF2D52;
+	color: #F6F6F6;
+	border-color: #FF2D52;
+}

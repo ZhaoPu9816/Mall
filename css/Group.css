@@ -1,0 +1,261 @@
+.group {
+	font-size: 18px;
+}
+
+.group-bg {
+	width: 1280px;
+	height: 300px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.group-bg img {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.group-title ul {
+	width: 1000px;
+	margin: auto;
+	height: 40px;
+}
+
+.group-title li {
+	width: 50px;
+	line-height: 40px;
+	float: left;
+	color: #ccc;
+}
+
+.group-sort {
+	line-height: 30px;
+	height: 42px;
+	background-color: rgb(237,237,237);
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0px 5px;
+}
+
+.sort-box {
+	width: 1000px;
+	margin: auto;
+}
+
+.sort-list {
+	float: left;
+}
+
+.group-sort li {
+	width: 100px;
+	float: left;
+	border-right: 1px solid #ccc;
+	color: #ccc;
+	text-align: center;
+	background: #ededed;
+	cursor: pointer;
+}
+
+.group-sort li:first-child {
+	background: #FF2D52;
+}
+
+.group-sort li:nth-child(n+2) {
+	text-align: center;
+}
+
+.group-sort li:nth-child(n+2):hover {
+	color: white;
+	background: #FF2D52;
+}
+
+.sort-list span {
+	display: inline-block;
+	color: white;
+}
+
+.flip {
+	margin-top: 5px;
+	line-height: 20px;
+}
+
+.flip button {
+	width: 20px;
+    height: 20px;
+	border: 0;
+	background-color: #CCC;
+}
+
+.flip span {
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+.group-ss {	
+	width: 250px;
+	padding: 4px;
+}
+
+.group-ss input {
+	width: 200px;
+	height: 22px;
+	border: 1px solid #ccc;
+	background: url(../img/search.png)no-repeat;
+	background-size: 15px;
+	background-position: 178px;
+	vertical-align: middle;	
+}
+
+/*进度条*/
+.group-progress {
+	position: relative;
+    width: 60px;
+    height: 10px;
+    border-radius: 5px;
+    background-clip: padding-box;
+    border: 1px solid #FF2D52;
+    background: #FFE4Dc;
+    display: inline-block;
+}
+
+.group-bar {
+	position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 8px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    background: #FF2D52;
+}
+
+.group-content {
+	width: 1000px;
+	margin: auto;
+	clear: both;
+	overflow: auto;
+}
+
+.group-content h4 {
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.group-content li {
+	width: 240px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	line-height: 24px;
+	float: left;
+	margin-left: 13px;
+	margin-top: 15px;
+	position: relative;
+}
+
+.group-content li:nth-child(4n-3) {
+	margin-left: 0px;
+}
+
+.group-content img {
+	width: 220px;
+	height: 220px;
+}
+
+/*翻页*/
+.group-fy {
+	width: 1000px;
+	height: 80px;
+	margin: auto;
+	clear: both;
+}
+
+.fy {
+	width: 320px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.page-box .page {
+	display: inline-block;
+}
+
+.page-box .button {
+	width: 40px;
+	height: 40px;
+	background: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: small;
+}
+
+.page-box .page:first-child .button,
+.page-box .page:last-child .button {
+	width: 80px;
+}
+
+.page-box .button:hover {
+	background: #717171;
+	color: white;
+	border-color: #717171;
+}
+
+.page-box .button.disabled {
+	background: #F6F6F6;
+	color: #CCCCCC;
+	border-color: #CCCCCC;
+	cursor: not-allowed;
+}
+
+.page-box .button.current {
+	background: #717171;
+	color: #F6F6F6;
+	border-color: #717171;
+}
+
+/*立即团购*/
+.togroup {
+	height: 32px;
+    width: 238px;
+    background-color: #FF2D52;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+.group-content li:hover .togroup {
+	display: block;
+}
+
+.group-content li:hover {
+	border: 1px solid #FF2D52;
+}
+
+/*已抢完*/
+.group-null {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: x-large;
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(158,158,158,0.8);
+	position: absolute;
+	top: 70px;
+	left: 75px;
+	border-radius: 50%;
+	overflow: hidden;
+}

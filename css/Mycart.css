@@ -1,0 +1,203 @@
+.mycart {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.mycart-head {
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.selectAll {
+	margin-top: 20px;
+	height: 50px;
+	line-height: 50px;
+	background-color: whitesmoke; 
+	border: 1px solid #ccc;
+}
+
+.selectAll label {
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.selectAll input,
+.store-text input,
+.shopChoice input,
+.selectDel input {
+	margin-left: 14px;
+	margin-right: 10px;
+}
+
+.selectAll a {
+	margin-left: 140px;
+}
+
+.selectAll ul {
+	width: 480px;
+	height: 50px;
+	float: right;
+}
+
+.selectAll li {
+	width: 80px;
+	float: left;
+	margin-left: 40px;
+}
+
+.store-text a {
+	line-height: 50px;
+}
+
+.store-shop {
+	height: 408px;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+.shop {
+	height: 100px;
+	background-color: whitesmoke; 
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.shop ul {
+	width: 1000px;		
+}
+
+.shop li {
+	float: left;
+}
+
+.shop img {
+	float: left;
+	width: 78px;
+	height: 78px;
+}
+
+.shopChoice {
+	width: 30px;
+	height: 30px;
+	margin-top: 30px;
+}
+
+.shopinformation {
+	width: 290px;
+	height: 78px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.shopinformation a {
+	margin-left: 15px;
+}
+
+.shopName {
+	float: left;
+}
+
+.shopmold {
+	width: 160px;
+	height: 78px;
+    margin-top: 10px;
+    padding: 10px 18px 10px;
+    border: 1px dashed #ccc;
+    cursor: pointer;
+}
+
+.shopmold:hover {
+	border: 1px dashed #FF2D52;
+}
+
+.shopUnit {
+	text-align: center;
+	width: 120px;
+	height: 80px;
+    margin-left: 20px;
+	margin-top: 12px;
+}
+
+.shopNum {
+	width: 100px;
+	height: 50px;
+	margin-left: 26px;
+    margin-top: 30px;
+}
+
+.shopNum input {
+	width: 30px;
+	text-align: center;
+}
+
+.shopNum button {
+	width: 20px;
+}
+
+.shopAmount {
+	width: 60px;
+	height: 50px;
+    margin-left: 36px;
+    margin-top: 30px;
+}
+
+.shopOperation {
+	width: 110px;
+	height: 60px;
+	margin-left: 36px;
+    margin-top: 26px;
+}
+
+.Subtotal {
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+}
+
+.Subtotal ul {
+	width: 350px;
+	float: right;
+}
+
+.Subtotal li {
+	float: left;
+}
+
+.Settlement {
+	margin-top: 36px;
+	height: 50px;
+	background-color: whitesmoke;
+	border: 1px solid #ccc;
+}
+
+.selectDel {
+	float: left;
+	line-height: 50px;
+}
+
+.Settlement ul {
+	width: 300px;
+	
+	float: right;
+}
+
+.Settlement li {
+	width: 270px;
+	text-align: right;
+	float: left;
+}
+
+.Settlement button {
+	height: 48px;
+	line-height: 48px;
+	font-size: 20px;
+	width: 120px;
+	border: 0;
+	background-color: #FF2D52;
+	float: right;
+	cursor: pointer;
+}

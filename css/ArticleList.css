@@ -1,0 +1,143 @@
+.articleList {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.articleList-title {
+	height: 50px;
+	width: 1000px;
+	margin: auto;
+	line-height: 50px;
+}
+/*左部分*/
+.articleList-l {
+	width: 760px;
+	border: 1px solid #ccc;
+}
+
+.articleList-l li {
+	padding: 0px 20px 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.al-title {
+	width: 720px;
+	line-height: 60px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.al-content {
+	width: 720px;
+	margin-top: 20px;
+}
+
+.al-content img {
+	width: 200px;
+	height: 150px;
+}
+
+.al-text {
+	width: 495px;
+	color: rgb(51,51,51);
+}
+
+.al-text span {
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.al-text a {
+	color: #ccc;
+}
+
+.al-text a:hover {
+	color: #FF2D52;
+}
+
+/*翻页*/
+.fy {
+	width: 760px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.page-box .page {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.page-box .button {
+	width: 40px;
+	height: 40px;
+	background: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: small;
+}
+
+.page-box .page:first-child .button,
+.page-box .page:last-child .button {
+	width: 80px;
+}
+
+.page-box .button:hover {
+	background: #FF2D52;
+	color: white;
+	border-color: #FF2D52;
+}
+
+.page-box .button.disabled {
+	background: #F6F6F6;
+	color: #CCCCCC;
+	border-color: #CCCCCC;
+	cursor: not-allowed;
+}
+
+.page-box .button.current {
+	background: #FF2D52;
+	color: #F6F6F6;
+	border-color: #FF2D52;
+}
+
+/*右部分*/
+.articleList-r {
+	width: 220px;
+	border: 1px solid #ccc;
+}
+
+.popular-title {
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(255,249,245);
+	padding-left: 15px;
+}
+
+.popular-list {
+	padding:10px 5px 10px;
+	line-height: 30px;
+	list-style: square;
+}
+
+.popular-list li {
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.popular-list li:hover {
+	color: #FF2D52;
+}

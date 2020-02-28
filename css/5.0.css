@@ -1,0 +1,289 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+/*小导航*/
+.cat {
+	height: 50px;
+	width: 1000px;
+	line-height: 50px;
+}
+/*挑选条件*/
+.nav {
+	line-height: 30px;
+	border: 1px solid #ccc;
+}
+
+.nav-row {
+	border-bottom: 1px solid #ccc;
+	
+}
+
+.nav-row:last-child {
+	border-bottom: 0;
+}
+
+.sq {
+	width: 60px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: white;
+	margin-top: 20px;
+	margin-right: 40px;
+	*margin-top: -80px;
+}
+
+.nav span {
+	width: 150px;
+	float: left;
+	text-align: right;
+	padding: 20px;
+	
+}
+
+.nav-child {
+	padding: 20px;
+	width: 700px;
+	border-left: 1px solid #ccc;
+	vertical-align: -10px;
+	*width: 660px;
+	*vertical-align: 0px;
+	*margin-top: -30px;
+}
+
+.nav-child li {
+	height: 30px;
+	margin-left: 30px;
+	float: left;
+	cursor: pointer;
+}
+
+.nav-child li:hover {
+	background-color: #FF2D52;
+	color: white;
+	*background-color: #FF2D52;
+	*color: white;
+}
+
+/*下部分*/
+.body {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+/*猜你喜欢*/
+.detail-guess {
+	width: 250px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	*display: inline;
+}
+
+.detail-guess-title {
+	height: 40px;
+	background-color: papayawhip;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+.detail-guess li {
+	height: 90px;
+	border-top: 1px solid #ccc;
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.detail-guess img {
+	height: 70px;
+	width: 70px;
+}
+
+.detail-guess-img {
+	height: 90px;
+	width: 90px;
+	padding: 10px;
+	*padding-right: 0px;
+	*padding-bottom: 0px;
+}
+
+.detail-guess-name {
+	height: 80px;
+	width: 150px;
+	margin-top: 10px;
+}
+
+.detail-guess-name span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+/*筛选*/
+.screen {
+	float: right;
+	width: 730px;
+	/*margin-left: 20px;*/
+	display: inline-block;
+}
+
+.screen-title {
+	height: 40px;
+	line-height: 39px;
+	background-color: papayawhip;
+	border: 1px solid #ccc;
+}
+
+.screen-title li {
+	width: 70px;
+	float: left;
+	text-align: center;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.screen-title li:nth-child(-n+5):hover {
+	background-color: #FF2D52;
+	border-right: 1px solid #FF2D52;
+	*background-color: #FF2D52;
+	*border-right: 1px solid #FF2D52;
+}
+
+.screen-title li:nth-child(6) {
+	width: 120px;
+}
+
+.screen-title input {
+	width: 20px;
+}
+
+.flip {
+	margin-top: 6px;
+	width: 100px;
+	line-height: 26px;
+}
+
+.flip button {
+	width: 20px;
+	height: 26px;
+	border: 0;
+	background-color: #CCC;
+}
+
+.flip span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.screen-content {
+	display: inline-block;
+	width: 100%;
+	*display: inline;
+	*width: 730px;
+}
+
+.screen-content li {
+	width: 175px;
+	padding: 9px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	*padding-right: 0px;
+	*width: 164px;
+	*margin-left: 6px;
+}
+
+.screen-content li:nth-child(4n-3) {
+	margin-left: 0px;
+}
+
+.screen-content h3,
+.screen-content p {
+	*width: 155px;
+}
+
+.screen-content span {
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.screen-content img{
+	width: 155px;
+	height: 155px;
+}
+
+/*翻页*/
+.width100 {
+	width: 100%;
+}
+
+.fy {
+	width: 310px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.page-box .page {
+	display: inline-block;
+	*display: inline;
+}
+
+.page-box .button {
+	width: 40px;
+	height: 40px;
+	background: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: small;
+	*display: inline;
+	*width: 40px;
+	*height: 40px;
+}
+
+.page-box .page:first-child .button,
+.page-box .page:last-child .button {
+	width: 80px;
+	*width: 80px;
+	*height: 40px;
+}
+
+.nextbutton {
+	*width: 80px;
+	*height: 40px;
+}
+
+.page-box .button:hover {
+	background: #717171;
+	color: white;
+	border-color: #717171;
+}
+
+.page-box .button.disabled {
+	background: #F6F6F6;
+	color: #CCCCCC;
+	border-color: #CCCCCC;
+	cursor: not-allowed;
+}
+
+.page-box .button.current {
+	background: #717171;
+	color: #F6F6F6;
+	border-color: #717171;
+}

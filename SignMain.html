@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="iconfont/iconfont.css" rel="stylesheet" />
+		<link href="css/right-nav.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/search.css" />
+		<link rel="stylesheet" href="css/down.css" />
+		<link rel="stylesheet" href="css/Sign.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/Public-Right-nav.js"></script>
+	</head>
+
+	<body>
+
+		<!--顶部-->
+		<div class="top">
+			<div class="h">
+				<div class="left">
+					<a href="index.html">主页</a>
+					<span>|</span>
+					<a>导航</a>
+				</div>
+				<div class="right">
+					<a href="SignMain.html">登录</a>
+					<span>|</span>
+					<a href="registerMain.html">注册</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="sign">
+
+			<div class="sign-head">
+				<img src="img/logo.png" />
+			</div>
+
+			<div class="sign-body">
+				<!--登录-->
+				<div class="tangram">
+					<div class="tangram-head">
+						<span>登录</span>
+						<a class="to-register">立即注册> </a>
+						<hr />
+					</div>
+					<div class="tangram-body">
+						<input type="text" name="signUserName" id="signUserName" placeholder="手机/邮箱/用户名" />
+						<input type="text" name="signPassWord" id="signPassWord" placeholder="密码" />
+					</div>
+					<div class="tangram-down">
+						<input type="checkbox" value="自动登录" /><span>自动登录</span>
+						<a href="Retrieve.html">忘记密码</a>
+						<button class="sign-btn" id="sign-btn">登录</button>
+					</div>
+					<div class="thirdParty">
+						<span>使用第三方账号登陆</span>
+						<img src="img/qqlogo.jpg" />
+						<img src="img/wxlogo.jpg" />
+					</div>
+				</div>
+				<!--注册-->
+				<div class="register">
+					<div class="tangram-head">
+						<span>注册</span>
+						<a class="to-tangram">返回登录> </a>
+						<hr />
+					</div>
+					<div class="tangram-body">
+						<input type="text" name="phone" id="phone" placeholder="输入手机号" />
+						<input type="text" name="yzm" id="yzm" placeholder="验证码" /><button class="hqyzm">获取验证码</button>
+						<input type="text" name="passWord" id="passWord" placeholder="密码" />
+						<input type="text" name="repassWord" id="repassWord" placeholder="确认密码" />
+					</div>
+					<div class="xy">
+						<input type="checkbox" /><span>我已阅读并同意</span><a class="Typeface4" href="">《注册协议》</a>
+					</div>
+					<div class="tangram-down">
+						<button class="register-btn" id="register-btn">立即注册</button>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+		
+		<script type="text/javascript" src="js/down.js" ></script>
+		
+	</body>
+
+</html>
+
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/iframeheight.js"></script>
+<script type="text/javascript" src="js/Sign.js" ></script>

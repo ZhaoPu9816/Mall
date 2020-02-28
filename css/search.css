@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.S {
+	width: 100%;
+	height: 156px;
+	margin: auto;
+
+}
+
+.s {
+	width: 1000px;
+	height: 156px;
+	margin: auto;
+}
+
+.roglogo {
+	width: 220px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	*display: inline;
+	position: relative;
+}
+
+.roglogo img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 220px;
+	transform: translate(-50%,-50%);
+}
+
+.search {
+	display: inline-block;
+	width: 550px;
+	height: 86px;
+	margin-left: 120px;
+	float: left;
+	*display: inline;
+	*height: 96px;
+}
+
+.search-top {
+	width: 520px;
+	height: 40px;
+	margin-top: 44px;
+	
+}
+
+.ss {
+	width: 60px;
+	height: 40px;
+	background-color: red;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	border: 0px;
+	*display: inline;
+	*width: 80px;
+	*height: 50px;
+}
+
+.ss a {
+	font-family: "仿宋";
+	font-size: larger;
+	color: white;
+	*color: white;
+}
+
+.search-recommend {
+	display: inline-block;
+	width: 550px;
+	height: 66px;
+	margin-left: 120px;
+	*display: inline;
+}
+
+.search-recommend a {
+	font-family: "仿宋";
+	font-size: larger;
+}
+
+.search input {
+	width: 400px;
+	height: 40px;
+	border: 5px solid red;
+	font-family: "仿宋";
+	font-size: larger;
+	float: left;
+	background: url(../img/search.png) no-repeat;
+	background-size: 20px 20px;
+	background-position: 3px center;
+	padding-left: 28px;
+}
+
+input:focus {
+	outline-style: none;
+}
+
+
+

@@ -1,0 +1,72 @@
+.articleList {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.articleList-title {
+	height: 50px;
+	width: 1000px;
+	margin: auto;
+	line-height: 50px;
+}
+
+/*左部分*/
+.articleList-l {
+	width: 760px;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.article-title {
+	text-align: center;
+}
+
+.article-title h2 {
+	line-height: 60px;
+}
+
+.article-title p {
+	line-height: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.article-title img {
+	height: 360px;
+}
+
+.article-content {
+	
+}
+
+/*右部分*/
+.articleList-r {
+	width: 220px;
+	border: 1px solid #ccc;
+}
+
+.popular-title {
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(255,249,245);
+	padding-left: 15px;
+}
+
+.popular-list {
+	padding:10px 15px 10px;
+	line-height: 30px;
+	list-style: square;
+}
+
+.popular-list li {
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.popular-list li:hover {
+	color: #FF2D52;
+}

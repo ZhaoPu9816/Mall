@@ -1,0 +1,101 @@
+.help-title,
+.help-body {
+	width: 1000px;
+	margin: auto;
+}
+
+.help-title {
+	height: 50px;
+	line-height: 50px;
+}
+
+/*左部分手风琴菜单*/
+.help-wrap {
+	width: 250px;
+	height: auto;
+	border-radius: 5px;
+}
+
+ul,
+li,
+h4 {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.help-wrap>ul>li {
+	background: white;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	cursor: pointer;
+	position: relative;
+	line-height: 50px;
+}
+
+.help-wrap>ul>li h4 {
+	margin-left: 30px;
+}
+
+.help-wrap>ul>li:last-child {
+	border-bottom: 1px solid #ccc;
+}
+
+.help-wrap>ul li span {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	font-size: 24px;
+	display: inline-block;
+}
+
+.help-wrap>ul>li .child-ul {
+	background: #fff;
+	display: none;
+}
+
+.help-wrap>ul>li .child-ul li {
+	color: #000;
+	line-height: 40px;
+	padding-left: 30px;
+}
+
+.child-ul li:hover {
+	border-left: 3px solid #ff2d52;
+}
+
+.help-list {
+	width: 730px;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	padding: 0px 20px 10px;
+}
+/*购物流程*/
+.gvrp {
+	padding-bottom: 20px;
+}
+
+.gvrp-title,
+.payment-title,
+.commonProblem-title {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.gvrp-content,
+.payment-content,
+.commonProblem-content {
+	margin-top: 20px;
+	line-height: 30px;
+}
+/*支付方式*/
+.payment {
+	display: none;
+}
+
+/*常见问题*/
+.commonProblem {
+	display: none;
+}

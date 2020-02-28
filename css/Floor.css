@@ -1,0 +1,162 @@
+.floor {
+	width: 1000px;
+	height: 580px;
+	margin: auto;
+}
+
+.floor-head {
+	height: 50px;
+}
+
+.floor-head span {
+	font-family: "楷体";
+	font-size: xx-large;
+	color: #ff2d52;
+}
+
+.floor-head-text {
+	margin-top: 17px;
+	width: 212px;
+	float: right;
+	position: relative;
+}
+
+.floor-list {
+	text-align: center;
+	display: inline-block;
+}
+
+.floor-list-li {
+	width: 70px;
+	height: 30px;
+	font-family: "楷体";
+	float: left;
+	cursor: pointer;
+}
+
+.floor-triangle {
+	position: absolute;
+	border: 5px solid white;
+	display: inline-block;
+	bottom: 0px;
+}
+
+.floor-list .floor-list-li:hover .floor-triangle {
+	border: 5px solid white;
+	border-bottom: 5px solid #FF2D52;
+}
+
+.list2 a {
+	font-family: "楷体";
+	font-size: medium;
+	color: black;
+	cursor: pointer;
+}
+
+.floor-body {
+	height: 516px;	
+	border-top: 2px solid #FF2D52;
+	float: left;
+}
+
+.floor-body-left {
+	width: 200px;
+	font-family: "楷体";
+	text-align: center;
+	background-color: rgb(241,241,241);
+	border: 1px solid #ccc;
+}
+
+.floor-body-left p {
+	font-size: x-large;
+	color: #FF2D52;
+	line-height: 100px;
+}
+
+.floor-body-left img {
+	margin-top: 20px;
+	width: 180px;
+	height: 180px;
+}
+
+.floor-circular {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;	
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: white;
+	color: #FF2D52;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.floor-circular:hover {
+	background-color: #FF2D52;
+	color: white;
+}
+
+.floor-body-center {
+	width: 600px;
+}
+
+.floor-body-center img {
+	width: 168px;
+	height: 168px;
+}
+
+.floor-body-center .bj {
+	margin-left: 20px;
+}
+
+.floor-body-right {
+	border: 1px solid #ccc;
+	width: 198px;
+}
+
+.floor-body-right p {
+	line-height: 30px;
+	font-family: "楷体";
+	font-size: 20px;
+	margin-left: 10px;
+	text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.floor-body-right img {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.hot {
+	height: 95px;
+	margin-left: 15px;
+}
+
+.hot-text {
+	height: 80px;
+	width: 100px;
+	display: inline-block;
+	float: left;
+	
+}
+
+.hot-text a {
+	color: #FF2D52;
+	font-family: "楷体";
+	margin-left: 10px;
+}
+
+.floor-body-left,
+.floor-body-center,
+.floor-body-right {
+	display: inline-block;
+	float: left;
+	height: 516px;
+}

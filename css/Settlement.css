@@ -1,0 +1,203 @@
+.settlement {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.settlement-title {
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.settlement-title-left {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-bottom: 3px solid #FF2D52;
+}
+
+.settlement-title-right {
+	height: 53px;
+	width: 1000px;
+	border-bottom: 3px solid #ccc;
+}
+
+.settlement-head h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.address {
+	width: 100%;
+	display: inline-block;
+}
+
+.address li {
+	float: left;
+	width: 250px;
+	height: 150px;
+    padding: 15px;
+	border: 3px dashed #ccc;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.address li:hover {
+	border: 3px dashed #FF2D52;
+}
+
+.way,
+.invoice {
+	height: 50px;
+}
+
+.way li,
+.invoice li {
+	float: left;
+	width: 120px;
+	height: 40px;
+    line-height: 40px;
+    text-align: center;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+}
+
+.way li:hover,
+.invoice li:hover {
+	color: #FF2D52;
+	border: 1px solid #FF2D52;
+}
+/*送货清单*/
+.inventory {
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.inventory-title {
+	height: 50px;
+	margin-bottom: 20px;
+	background: #FAEBD7;
+}
+
+.inventory-title li {
+	float: left;
+	line-height: 50px;
+}
+
+.inventory-title1 {
+	width: 180px;
+	padding-left: 15px;
+}
+
+.inventory-title2 {
+	width: 400px;
+	padding-left: 60px;
+}
+
+.inventory-title3 {
+	width: 120px;
+	text-align: center;
+}
+
+.inventory-title4 {
+	width: 250px;
+}
+
+.inventory-title5 {
+	width: 230px;
+	padding-left: 30px;
+}
+
+.inventory-shop {
+	height: 100px;
+	background-color: #FAEBD7;
+	padding: 15px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+.inventory-shop img {
+	height: 70px;
+	width: 70px;
+}
+
+.shop-list {
+	height: 70px;
+}
+
+.shop-list li {
+	float: left;
+}
+
+.shop-list li:first-child {
+	margin-right: 15px;
+}
+
+.case {
+	width: 42px;
+    height: 24px;
+    margin-top: 8px;
+    font-size: small;
+	border: 1px solid #FF2D52;
+	border-radius: 5px;
+	color: #FF2D52;
+}
+
+.inventory-down {
+	height: 166px;
+	border-bottom: 1px solid #ccc;
+}
+
+.xzyhq {
+	line-height: 40px;
+	width: 200px;
+}
+
+.xzyhq select {
+	width: 150px;
+	height: 30px;
+}
+
+.price-box {
+	width: 320px;
+	line-height: 40px;
+}
+
+.price-title {
+	width: 220px;
+	text-align: right;
+}
+
+.price {
+	width:90px;
+	float: right;
+	text-align: right;
+}
+/*确认支付*/
+.qrzf {
+	height: 60px;	
+	margin-top: 20px;
+}
+
+.qrzf-l {
+	width: 300px;
+	line-height: 30px;
+}
+
+.qrzf-r {
+	padding-top: 5px;
+}
+
+.qrzf-r button {
+	width: 200px;
+	height: 50px;
+	border: 0;
+	border-radius: 5px;
+	background: #FF2D52;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+}

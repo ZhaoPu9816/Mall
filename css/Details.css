@@ -1,0 +1,603 @@
+.detail-head {
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+}
+
+.cat,
+.gallery,
+.wrap {
+	float: left;
+}
+
+
+/*小导航*/
+
+.cat {
+	height: 50px;
+	width: 1000px;
+	line-height: 50px;
+}
+
+
+/*左边图片*/
+
+.gallery {
+	height: 550px;
+	width: 400px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+
+/*详细介绍右部分*/
+
+.wrap {
+	height: 550px;
+	width: 600px;
+	border: 1px solid #ccc;
+}
+
+.detail-title,
+.meta,
+.delivery,
+.setmeal,
+.shopNum,
+.detail-action {
+	padding: 10px 20px;
+}
+
+.detail-title {
+	line-height: 40px;
+	height: 150px;
+}
+
+.meta {
+	padding-top: 20px;
+	background-color: papayawhip;
+}
+
+.meta li {
+	line-height: 40px;
+}
+
+.detail-countdown {
+	width: 220px;
+	float: right;
+	font-size: 20px;
+}
+
+.detail-countdown span {
+	font-size: 24px;
+}
+
+.property {
+	width: 100px;
+	display: inline-block;
+}
+
+.delivery {
+	margin-top: 10px;
+}
+
+.delivery select {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+
+.setmeal button {
+	width: 70px;
+	height: 40px;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+
+.shopNum input {
+	width: 50px;
+	height: 40px;
+	text-align: center;
+}
+
+.shopNum button {
+	width: 30px;
+	height: 40px;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+
+.detail-action {
+	height: 80px;
+}
+
+.linkBuy {
+	margin-left: 100px;
+}
+
+.linkAdd {
+	margin-left: 30px;
+}
+
+.linkBuy button,
+.linkAdd button {
+	height: 45px;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+}
+
+.linkBuy button {
+	width: 100px;
+	background-color: #FF2D52;
+}
+
+.linkAdd button {
+	width: 120px;
+	background-color: #F40;
+}
+
+
+/*中间*/
+
+.detail-center {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	/*border: 1px solid #ccc;*/
+}
+
+
+/*猜你喜欢*/
+
+.detail-guess {
+	width: 250px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+
+.detail-guess-title {
+	height: 40px;
+	background-color: papayawhip;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+.detail-guess li {
+	height: 90px;
+	border-top: 1px solid #ccc;
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.detail-guess img {
+	height: 70px;
+	width: 70px;
+}
+
+.detail-guess-img {
+	height: 90px;
+	width: 90px;
+	padding: 10px;
+}
+
+.detail-guess-name {
+	height: 80px;
+	width: 150px;
+	margin-top: 10px;
+}
+
+.detail-guess-name span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+/*占位*/
+.placeholder {
+	height: 1000px;
+	width: 250px;
+}
+
+/*右边*/
+
+.detail-main {
+	width: 730px;
+	margin-left: 20px;
+}
+
+
+/*标签*/
+.evaluate {
+	margin-top: 20px;
+}
+
+.evaluate-main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+.detail {
+	border: 1px solid #ccc;
+}
+
+.tabbar {
+	width: 728px;
+	background-color: papayawhip;
+	text-align: center;
+}
+
+.anchor li {
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+	border: 2px solid papayawhip;
+	cursor: pointer;
+}
+
+.anchor li:hover {
+	background-color: white;
+	border: 2px solid white;
+	border-top: 2px solid #FF2D52;
+}
+
+.detail-content {
+	width: 730px;
+}
+
+
+/*属性*/
+
+.attributes {
+	width: 728px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.attributes li {
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+
+/*图片描述*/
+
+.description {
+	width: 730px;
+}
+
+.description img {
+	width: 728px;
+	height: 477px;
+}
+
+/*评价*/
+
+.publish {
+	width: 730px;
+	height: 120px;
+	border: 1px solid #ccc;
+}
+
+.publish-list {
+	display: none;
+}
+
+.publish-list textarea {
+	width: 730px;
+	height: 150px;
+	border: 2px solid black;
+	font-size: x-large;
+}
+
+.send-btn {
+	width: 730px;
+	height: 40px;
+}
+
+.send-btn button {
+	width: 100px;
+	height: 40px;
+	float: right;
+	border: 0;
+	background-color: #FF2D52;
+	color: white;
+	border-radius: 5px;
+}
+
+.publish-left {
+	width: 520px;
+	height: 120px;
+	padding: 10px;
+}
+
+.rate {
+	width: 80px;
+	height: 70px;
+	padding: 10px;
+	text-align: center;
+}
+
+.score {
+	width: 300px;
+	margin-left: 30px;
+}
+
+.score-progress {
+	position: relative;
+	width: 200px;
+	height: 10px;
+	border-radius: 8px;
+	background-clip: padding-box;
+	border: 1px solid coral;
+	background: #FFE4Dc;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.score-progress-bar1,
+.score-progress-bar2,
+.score-progress-bar3 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 8px;
+	border-radius: 2px;
+	background-clip: padding-box;
+	background: coral;
+}
+
+.score-progress-bar1 {
+	width: 98%;
+}
+
+.score-progress-bar2 {
+	width: 1%;
+}
+
+.score-progress-bar3 {
+	width: 1%;
+}
+
+.publish-right {
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	border-left: 1px solid #ccc;
+	text-align: center;
+	line-height: 40px;
+}
+
+.publish-right button {
+	margin-top: 20px;
+	height: 40px;
+	width: 100px;
+	border: 0;
+	background-color: #FF2D52;
+	color: white;
+}
+
+
+/*其他评论*/
+
+.otherRate,
+.problem li {
+	width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.problem li {
+	border-bottom: 1px solid #ccc;
+}
+
+.problem li:last-child {
+	border-bottom: none;
+}
+
+.otherRate li {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.otherRate li:last-child {
+	border-bottom: none;
+}
+
+.headPortrait {
+	width: 80px;
+	text-align: center;
+}
+
+.headPortrait img {
+	height: 50px;
+	width: 50px;
+}
+
+.rev-item {
+	margin-left: 20px;
+	width: 580px;
+}
+
+.reply {
+	margin-top: 15px;
+	margin-left: 100px;
+	width: 580px;
+	min-height: 50px;
+	line-height: 50px;
+	border-top: 1px dashed #ccc;
+}
+
+
+/*咨询客服*/
+
+.detailConsultation {
+	margin-top: 80px;
+}
+
+.reminder {
+	width: 730px;
+	height: 120px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+}
+
+.reminder-left {
+	width: 520px;
+	height: 120px;
+	padding-left: 20px;
+	line-height: 36px;
+}
+
+.reminder-right {
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	border-left: 1px solid #ccc;
+	text-align: center;
+}
+
+.reminder-right button {
+	margin-top: 30px;
+	height: 40px;
+	width: 100px;
+	border: 0;
+	background-color: #FF2D52;
+	color: white;
+}
+
+.problem {
+	width: 730px;
+	margin: auto;
+	border: 1px solid #ccc;
+}
+
+.salesRecords {
+	margin-top: 80px;
+	border: 1px solid #ccc;
+}
+
+.salesRecords-text {
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background-color: papayawhip;
+}
+
+.salesRecords ul {
+	line-height: 50px;
+	text-align: center;
+	width: 720px;
+	height: 50px;
+	margin: auto;
+	border-bottom: 1px dashed #ccc;
+}
+
+.srsolid {
+	border-bottom: 1px solid #ccc;
+}
+
+.salesRecords ul:last-child {
+	border-bottom: none;
+}
+
+.salesRecords li {
+	float: left;
+	width: 20%;
+}
+
+
+/*翻页*/
+.fy {
+	width: 320px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.page-box .page {
+	display: inline-block;
+}
+
+.page-box .button {
+	width: 40px;
+	height: 40px;
+	background: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: small;
+}
+
+.page-box .page:first-child .button,
+.page-box .page:last-child .button {
+	width: 80px;
+}
+
+.page-box .button:hover {
+	background: #717171;
+	color: white;
+	border-color: #717171;
+}
+
+.page-box .button.disabled {
+	background: #F6F6F6;
+	color: #CCCCCC;
+	border-color: #CCCCCC;
+	cursor: not-allowed;
+}
+
+.page-box .button.current {
+	background: #717171;
+	color: #F6F6F6;
+	border-color: #717171;
+}
+
+/*推荐*/
+.recommendation-for-you {	
+	margin-top: 80px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+.rfy-commodity ul {
+	display: inline-block;
+	width: 100%;
+}
+
+.rfy-commodity li {
+	margin-left: 21px;
+    margin-top: 20px;
+	width: 120px;
+	float: left;
+}
+
+.rfy-commodity span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+.rfy-commodity img {
+	width: 120px;
+	height: 120px;
+}

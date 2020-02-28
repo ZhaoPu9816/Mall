@@ -1,0 +1,593 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top {
+	width: 100%;
+	height: 40px;
+	background-color: #f6f6f6;
+	border-bottom: 1px solid red;
+	/*position: fixed;*/
+}
+
+.h {
+	width: 1000px;
+	height: 39px;
+	margin: auto;
+	background-color: #f6f6f6;	
+}
+
+.left {
+	float: left;
+	line-height: 39px;
+}
+
+.right {
+	float: right;
+	line-height: 39px;
+}
+
+.h a {
+	font-family: "仿宋";
+	font-size: larger;
+	color: black;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+/*.main-header {
+	width: 100%;
+	height: 156px;
+}*/
+
+
+/*.head {
+	width: 999px;
+	height: 156px;
+	margin: 0 auto;
+	background: black;
+}*/
+
+
+/*.logo {
+	width: 249px;
+	height: 154px;
+}*/
+
+.main-nav {
+	width: 100%;
+	height: 51px;
+	background: #FF2D52;
+	border: 1px solid #FF2D52;
+}
+
+.content {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background: #FF2D52;
+	*height: 52px;
+}
+
+.list li,
+.classify {
+	color: white;
+	padding: 0 30px;
+	color: white\9;
+	*color: white;
+	*padding-left: 50px;
+	*padding-right: 50px;
+}
+
+.main-nav a {
+	color: white;
+	color: white\9;
+	*color: white;
+}
+
+.tb {
+	width: 20px;
+	height: 20px;
+	background: url(../img/sign.png);
+	display: inline-block;
+	background-position: 0 6px;
+	background-size: 150px 150px;
+	*display: inline;
+}
+
+.fl {
+	display: inline-block;
+	*display: inline;
+}
+
+.classify {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #EC193E;
+	*line-height: 50px;
+}
+
+.list li {
+	text-align: center;
+	padding: 0 30px;
+	line-height: 45px;
+	*margin-left: 20px;
+}
+
+.classify,
+.list,
+.list li,
+.list2,
+.list2 li {
+	display: inline-block;
+	*display: inline;
+	cursor: pointer;
+}
+
+.list li:hover {
+	background: crimson;
+	background: crimson\9;
+}
+
+.B {
+	width: 1000px;
+	height: 301px;
+	margin: 0 auto;
+}
+/*轮播图*/
+.carouse {
+	height: 300px;
+	width: 534px;
+	display: inline-block;
+	*display: inline;
+}
+
+#container {
+/*	margin-left: 200px;*/
+	width: 533px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+#inner-list {
+	width: 400%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#inner-list li {
+	float: left;
+}
+
+#dot-list {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#dot-list li {
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	line-height: 20px;
+	text-align: center;
+	background: rgba(255, 255, 255, .3);
+	cursor: pointer;
+	margin-right: 10px;
+	font-family: "楷体";
+	color: #ff2d52;
+	*display: inline;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    behavior: url(ie-css3.htc);
+}
+
+#dot-list li.cur {
+	background: rgba(255, 255, 255, .6);
+}
+
+.btn-ctrl {
+	position: absolute;
+	cursor: pointer;
+	top: 50%;
+	font-size: 36px;
+	color: red;
+	font-weight: 500;
+	z-index: 2;
+}
+
+#btn-prev {
+	left: 0px;
+}
+
+#btn-next {
+	right: 0px;
+}
+
+#inner-list img {
+	width: 533px;
+	height: 300px;
+}
+
+.list3 {
+	width: 1000px;
+	height: 260px;
+	margin: 0 auto;
+}
+
+.sp img {
+	width: 168px;
+	height: 168px;
+}
+
+.list3 table {
+	margin-left: 10px;
+}
+
+.tab-lists {
+	display: none;
+}
+
+.tab-lists.active {
+	display: block;
+}
+
+.bj {
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+.sp {
+	padding: 15px;
+}
+
+.Recommend {
+	width: 200px;
+	height: 258px;
+	border: 1px solid #ccc;
+	float: left;
+}
+
+.C {
+	margin-top: 15px;
+}
+
+.D {
+	width: 1000px;
+	height: 48px;
+	margin: auto;
+	background-color: white;
+	/*border: 1px solid red;*/
+}
+
+.list2 {
+	text-align: center;
+	display: inline-block;
+}
+
+.list2-li {
+	width: 200px;
+	height: 48px;
+	float: left;
+	position: relative;
+}
+
+.sj {
+	position: absolute;
+	bottom: 0px;
+	border: 5px solid white;
+	display: inline-block;
+	margin-bottom: 0px;
+	border-bottom: 5px solid white;
+}
+
+.list2-li:hover {
+	/*background-color: #EC193E;*/
+}
+
+.list2 .list2-li:hover .sj,
+.list2 .list2-li.active .sj {
+	border: 5px solid white;
+	border-bottom: 5px solid #FF2D52;
+}
+
+.list2 .list2-li:hover,
+.list2 .list2-li.active {
+	border-bottom: 3px solid #FF2D52;
+}
+
+.list2 a {
+	font-family: "楷体";
+	font-size: medium;
+	color: black;
+}
+
+.refresh {
+	width: 90px;
+	height: 30px;
+	float: right;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.refresh-text {
+	font-family: "楷体";
+	float: left;
+	color: #FF2D52;
+	line-height: 24px;
+}
+
+.refresh-img {
+	float: right;
+	margin-top: 2px;
+}
+
+.refresh img{
+	width: 20px;
+	height: 20px;
+}
+
+.bj td {
+	font-family: "仿宋";
+	font-size: medium;
+	color: red;
+	text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/*左导航*/
+.nav-left {
+	width: 200px;
+	height: 300px;
+	float: left;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+.list-left {
+	width: 200px;
+	height: 300px;
+	background: antiquewhite;
+	text-align: center;
+}
+
+.list-left .list-left {
+	width: 200px;
+	height: 50px;
+	background: #FF2D52;
+	margin-left: 0px;
+	border-bottom: 1px solid lightpink;
+}
+
+.main-nav,
+.nav-left {
+	font-family: "仿宋";
+	font-size: larger;
+	color: antiquewhite;
+	line-height: 40px;
+	position: relative;
+}
+
+.list-left .list-left:hover {
+	background: crimson;
+	color: crimson;
+}
+
+.list-left .list-left:hover a {
+	color: white;
+}
+
+.addlist {
+	width: 533px;
+	height: 300px;
+	line-height: 40px;
+	position: absolute;
+	text-align: center;
+	left: 199px;
+	top: -1px;
+	background-color: rgba(255,255,255,0.6);
+	border: 1px solid #ff2d52;
+	display: none;
+	font-size: x-large;
+	font-family: "楷体";
+	color: #ff2d52;
+	z-index: 10;
+}
+
+.list-left .list-left:hover .addlist {
+	display: block;
+}
+
+.lsj {
+	border-top: 8px solid #FF2D52;
+	border-bottom: 8px solid #FF2D52;
+	border-left: 8px solid antiquewhite;
+	border-right: 8px solid #FF2D52;
+	width: 0px;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 14px;
+	margin-left: 15px;
+}
+
+.list-left .list-left:hover .lsj {
+	border-color: crimson;
+	border-left-color: antiquewhite;
+}
+
+/*资讯*/
+.information {
+	width: 258px;
+	height: 300px;
+	float: right;
+}
+
+.information-Title {
+	width: 256px;
+	height: 50px;
+	line-height: 48px;
+	border: 1px solid #ccc;
+}
+
+.information-Title span {
+	font-size: large;
+	font-family: "黑体";
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.information-Title a {
+	color: #FF2D52;
+	float: right;
+	margin-right: 15px;
+	font-family: "楷体";
+}
+
+.information-content {
+	width: 256px;
+	height: 250px;
+	border: 1px solid #ccc;
+}
+
+.information-content p {
+	height: 35px;
+	line-height: 35px;
+	font-family: "楷体";
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	cursor: pointer;
+}
+
+.information-content p:hover {
+	color: #FF2D52;
+}
+
+.Typeface1 {
+	color: #ccc;
+	font-size: small;
+}
+
+.Typeface2 {
+	color: #FF2D52;
+	font-size: large;
+}
+
+.Typeface3 {
+	color: white;
+	font-size: large;
+}
+
+.Typeface4 {
+	color: #FF2D52;
+}
+
+.Typeface4:hover {
+	color: #FF2D52;
+}
+
+.Typeface5 {
+	color: #ccc;
+	font-size: x-large;
+}
+
+.Typeface6 {
+	color: #FF4400;
+	font-size: xx-large;
+}
+
+.Typeface7 {
+	color: #FF4400;
+	font-size: x-large;
+}
+
+.TypefaceCcc {
+	color: #ccc;
+}
+
+.TypefaceWhite {
+	color: white;
+}
+
+.fontsmall {
+	font-size: small;
+	font-family: "黑体";
+}
+
+.fontlarge {
+	font-size: large;
+}
+
+.leftAlignment {
+	float: left;
+}
+
+.rightAlignment {
+	float: right;
+}
+
+.iblock {
+	display: inline-block;
+}
+
+.marL20 {
+	margin-left: 20px;
+}
+
+.marL10 {
+	margin-left: 10px;
+}
+
+.marTB10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fontgray {
+	color: gray;
+}
+
+.gray { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);    
+    filter: grayscale(100%);	
+    filter: gray;
+}
+
+.gray226 {
+	background-color: rgb(226,226,226);
+}
+
+.gray170 {
+	background-color: rgb(170,170,170);
+}
+
+.Typeface170 {
+	color: rgb(170,170,170);
+}
+
+.bold {
+	font-weight: bold;
+}

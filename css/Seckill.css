@@ -1,0 +1,175 @@
+.seckill-head {
+	background: url(../img/skhbg.png);
+	height: 390px;
+	width: 1280px;
+	margin: auto;
+	position: relative;
+}
+
+.headbl {
+	width: 1280px;
+}
+
+.nz {
+	background: url(../img/nz.png)no-repeat;
+    background-size: 34px;
+    background-position: -3px 2px;
+    position: absolute;
+    top: 20px;
+    left: 36%;
+    color: white;
+    padding-left: 30px;
+}
+
+.nz img {
+	height: 40px;
+	vertical-align: middle;
+}
+
+.countdown span {
+	font-size: large;
+}
+/*抢购时间*/
+.seckill-title {
+	background-color: #525252;
+	height: 60px;
+	color: rgb(130,130,130);
+}
+
+.seckill-title ul {
+	width: 1000px;
+	margin: auto;
+}
+
+.seckill-title li {
+	width: 200px;
+	float: left;
+	height: 60px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	padding: 8px;
+}
+
+.seckill-title li:nth-child(1) {
+	border-left: 1px solid #ccc;
+}
+
+.seckill-start {
+	line-height: 42px;
+}
+/*抢购商品*/
+.seckill-content {
+	width: 1000px;
+	margin: auto;
+	clear: both;
+	overflow: auto;
+}
+
+.seckill-content li {
+	width: 184px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.seckill-content li:nth-child(5n-4) {
+	margin-left: 0px;
+}
+
+.list-s {
+	padding: 7px;
+}
+
+.list-s img {
+	height: 168px;
+	width: 168px;
+}
+
+.list-x {
+	height: 30px;
+	background-color: #FF2D52;
+	line-height: 30px;
+	padding-left: 7px;
+}
+
+.list-x button {
+	width: 60px;
+	height: 30px;
+	float: right;
+	background-color: white;
+	border: 1px solid #FF2D52;
+	color: #FF2D52;
+	cursor: pointer;
+}
+
+.list-x button:hover {
+	color: white;
+	background-color: #FF2D52;
+}
+
+.seckill-content li:hover {
+	border: 1px solid #FF2D52;
+}
+
+/*即将开始*/
+.jjks {
+	background-color: rgb(255,96,124);
+}
+.jjks button {
+	border: 1px solid rgb(255,96,124);
+	cursor: not-allowed;
+	color: rgb(255,96,124);
+}
+
+/*已结束*/
+.yjs {
+	background-color: rgb(153,153,153);
+}
+
+.yjs button {
+	border: 1px solid rgb(153,153,153);
+	cursor: not-allowed;
+	color: rgb(153,153,153);
+}
+
+.js {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: rgba(153,153,153,0.8);
+	color: rgba(255,255,255,0.8);
+	font-weight: bold;
+}
+
+.seckill-flip {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.syc,
+.xyc {
+	width: 120px;
+	height: 36px;
+	border-radius: 5px;
+	line-height: 36px;	
+	cursor: pointer;
+	background-color: rgb(204,204,204);
+}
+.syc:hover,
+.xyc:hover {
+	background-color: rgb(102,102,102);
+}
+.xyc {
+	margin-left: 50px;
+}

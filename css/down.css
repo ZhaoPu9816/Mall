@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+.down {
+	height: 392px;
+	width: 100%;
+    margin: auto;
+	border: 1px solid red;
+	padding-top: 30px;
+}
+
+.down-list {
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.down-list li {
+	float: left;
+	width: 20%;
+	height: 100px;
+}
+
+.down-list-tb {
+	width: 80px;
+	height: 80px;	
+	float: left;
+	margin-top: 8px;
+	border-radius: 50% ;
+	text-align: center;
+	line-height: 80px;
+	border: 2px solid #FF2D52;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.down-list-tb a {
+	font-family: "楷体";
+	font-size: 60px;
+	color: #FF2D52;
+}
+
+.down-list-text {
+	width: 120px;
+	height: 50px;	
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.down-list p {
+	font-family: "仿宋";
+	font-weight: bold;
+}
+
+.down-list span {
+	font-family: "仿宋";
+	font-size: small;
+	color: #ccc;
+}
+
+.down-center {
+	width: 1200px;
+	height: 200px;
+	padding-top: 40px;
+	margin: auto ;
+}
+
+.gwzl {
+	width: 1000px;
+	height: 150px;
+	padding-top: 10px;
+	display: inline-block;
+	*display: inline;
+}
+
+.gwzl table {
+	text-align: left;
+	font-family: "仿宋";
+	border: 0;
+}
+
+.gwzl th {
+	text-align: left;
+}
+
+.gwzl td {	
+	width: 198px;
+	height: 30px;	
+	font-size: small;
+}
+
+.gwzl a {
+	color: black;
+}
+
+.gwzl a:hover {
+	color: #FF2D52;
+}
+
+.phone {
+	width: 190px;
+	height: 150px;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	border-left: 2px solid #ccc;
+	*display: inline;
+	*margin-top: -115px;
+}
+
+.phone p {
+	font-size: 38px;
+	line-height: 70px;
+	font-family: "仿宋";
+}
+
+.phone span {
+	font-size: 20px;
+	font-family: "仿宋";	
+}
+
+.down-down {
+	height: 60px;
+	text-align: center;
+	background-color: black;
+}
+
+.down-down a {
+	font-family: "仿宋";	
+	line-height: 50px;
+	color: white;
+}

@@ -1,0 +1,417 @@
+.intergralMall {
+	font-size: 18px;
+}
+
+.intergralMall-head {
+	width: 1280px;
+	margin: auto;
+}
+
+/*轮播图*/
+.intergralMall-carouse {
+	width: 1280px;
+	height: 577px;
+	display: inline-block;
+}
+
+#intergralMall-container {
+/*	margin-left: 200px;*/
+	width: 1280px;
+	height: 577px;
+	position: relative;
+	overflow: hidden;
+}
+
+#intergralMall-inner-list {
+	width: 400%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#intergralMall-inner-list li {
+	float: left;
+}
+
+#intergralMall-dot-list {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+
+#intergralMall-dot-list li {
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	line-height: 20px;
+	text-align: center;
+	background: rgba(255, 255, 255, .3);
+	cursor: pointer;
+	margin-right: 10px;
+	font-family: "楷体";
+	color: #ff2d52;
+}
+
+#intergralMall-dot-list li.cur {
+	background: rgba(255, 255, 255, .6);
+}
+
+.intergralMall-btn-ctrl {
+	position: absolute;
+	cursor: pointer;
+	top: 50%;
+	font-size: 36px;
+	color: red;
+	font-weight: 500;
+	z-index: 2;
+}
+
+#intergralMall-btn-prev {
+	left: 0px;
+}
+
+#intergralMall-btn-next {
+	right: 0px;
+}
+
+#intergralMall-inner-list img {
+	width: 1280px;
+	height: 577px;
+}
+/*用户*/
+.user {
+	width: 280px;
+	height: 380px;
+	background: white;
+	z-index: 20;
+	position: absolute;
+	top: 90px;
+	left: 130px;
+	padding: 20px;
+}
+
+.user-s {
+	width: 240px;
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+}
+
+.user-tx {
+	height: 180px;
+	width: 100px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.user-tx img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+
+.user-s-r {
+	height: 180px;
+	width: 100px;
+	padding-top: 12px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+
+.user-s-r button {
+	height: 30px;
+	width: 60px;
+	border: 0;
+	background-color: #FF2D52;
+	border-radius: 5px;
+	color: white;
+	margin-top: 10px;
+}
+
+.user-x {
+	height: 120px;
+	width: 240px;
+	margin-top: 10px;
+}
+
+.myIntegral,
+.myCoupon {
+	height: 60px;
+	width: 240px;
+}
+
+.myIntegral img,
+.myCoupon img {
+	height: 30px;
+	width: 30px;
+}
+
+.myIntegral-l,
+.myCoupon-l {
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.myIntegral-r,
+.myCoupon-r {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+/*占位*/
+.placeholder {
+	height: 52px;
+	border-bottom: 1px solid #ccc;
+}
+/*优惠券*/
+.coupon {
+	width: 1000px;
+	margin: auto;
+}
+
+.coupon-title {
+	width: 1000px;
+	height: 52px;
+	line-height: 50px;	
+}
+
+.coupon-title h3 {
+	float: left;
+	display: inline-block;
+	border-bottom: 3px solid #FF2D52;
+}
+
+.coupon-content {
+	height: 180px;
+	padding-top: 2px;
+	border: 1px solid #ccc;
+}
+
+.coupon-content ul {
+	width: 998px;
+	margin-top: 1px;
+}
+
+.coupon-content li {
+	height: 160px;
+	width: 25%;
+	padding-top: 25px;
+    padding-left: 25px;
+	float: left;
+}
+/*上*/
+.coupon-s {
+	width: 200px;
+	height: 75px;
+	background-color: papayawhip;
+	position: relative;
+}
+.coupon-s p {
+	font-size: 12px;
+}
+.s-l {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 0 100% 0 0;
+	/*定位*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.s-r {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 100% 0 0 0;
+	/*定位*/
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.coupon-s-l {
+	width: 30px;
+    height: 26px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.coupon-s-r {
+	width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+/*分割线*/
+.xx {
+	width: 170px;
+	margin: auto;
+	border-top: 1px dashed #ccc;
+}
+/*下*/
+.coupon-x {
+	width: 200px;
+	height: 50px;
+	background-color: papayawhip;
+	position: relative;
+}
+.x-l {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 0 0 100% 0;
+	/*定位*/
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.x-r {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	/*四分之一圆*/
+	border-radius: 0 0 0 100%;
+	/*定位*/
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.exchange {
+	width: 100px;
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.exchange-btn {
+	width: 100px;
+    height: 26px;
+    background-color: #FF2D52;
+    border-radius: 20px;
+	color: white;
+	border: 0;
+}
+
+/*限时兑换*/
+.limitExChange {
+	width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.limitExChange-content {
+	height: 320px;
+	padding-top: 2px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 28px;
+}
+
+.limitExChange-content ul {
+	width: 998px;
+	padding-top: 16px;
+}
+
+.limitExChange-content li {
+	height: 280px;
+	width: 178px;
+	border: 1px solid #ccc;
+	margin-left: 18px;
+	float: left;
+}
+
+.limitExChange-content li:hover {
+	border: 1px solid #FF2D52;
+}
+
+.limitExChange-content img {
+	width: 175px;
+	height: 175px;
+}
+
+.limitExChange-btn {
+	width: 160px;
+    height: 30px;
+    background-color: #FF2D52;
+    border-radius: 5px;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+
+.limitExChange-btn-end {
+	width: 120px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 5px;
+	color: white;
+	border: 0;
+}
+
+/*精品兑换*/
+.boutiqueExChange {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 26px;
+}
+
+.boutiqueExChange-content {
+	height: 630px;
+	padding-top: 2px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 26px;
+}
+
+.boutiqueExChange-content ul {
+	width: 998px;
+	padding-top: 1px;
+}
+
+.boutiqueExChange-content li {
+	height: 280px;
+	width: 178px;
+	border: 1px solid #ccc;
+	margin-left: 18px;
+	margin-top: 20px;
+	float: left;
+}
+
+.boutiqueExChange-content li:hover {
+	border: 1px solid #FF2D52;
+}
+
+.boutiqueExChange-content img {
+	width: 175px;
+	height: 175px;
+}
+
+/*经验条*/
+.jy-progress {
+	position: relative;
+    width: 80px;
+    height: 12px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    border: 1px solid #FF2D52;
+    background: #FFE4Dc;
+    display: inline-block;
+}
+
+.jy-bar {
+	position: absolute;
+    width: 90%;
+    left: 0;
+    top: 0;
+    height: 10px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    background: #FF2D52;
+}
